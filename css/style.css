@@ -1,0 +1,101 @@
+
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: "open Sans";
+}
+
+h1 {
+	font-family: "open sans";
+	font-weight: bold;
+	padding-top: 25px;
+	color: #fff;
+
+}
+section {
+	padding: 50px;
+	font-family: "open sans";
+}
+
+h2 {
+	font-family: "open sans";
+	color: black;
+	font-style: normal;
+	font-weight: 600;
+}
+
+section h2 a {
+	font-family: "open sans";
+	font-style: normal;
+	font-weight: 300;
+
+}
+
+section div h3 {
+	color: white;
+	font-style: italic;
+}
+
+section div h2 {
+	font-family: "open sans";
+	font-style: normal;
+	font-weight: 600;
+	color: white;
+}
+
+
+footer {
+	font-family: "open sans";
+	font-style: normal;
+	color: white;
+	background-color: #121212
+}
+
+.testimonials {
+	background: url("../images/testimonial_bg.jpg") no-repeat center center rgb(134,141,157);
+	background-size: cover;
+
+}
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
