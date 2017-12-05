@@ -23,30 +23,26 @@ Developer @GA in NYC
 body {
 	color: #000;
 	line-height: 1.5;
-	font-family: open Sans;
+	font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-	font-family: open sans;
 	font-weight: bold;
 	padding-top: 25px;
 	color: #fff;
 
 }
-section {
+.benefits {
 	padding: 50px;
-	font-family: open sans;
 }
 
 h2 {
-	font-family: open sans;
 	color: black;
 	font-style: normal;
 	font-weight: 600;
 }
 
 section h2 a {
-	font-family: open sans;
 	font-style: normal;
 	font-weight: 300;
 
@@ -58,7 +54,6 @@ section div h3 {
 }
 
 section div h2 {
-	font-family: open sans;
 	font-style: normal;
 	font-weight: 600;
 	color: white;
@@ -66,7 +61,6 @@ section div h2 {
 
 
 footer {
-	font-family: open sans;
 	font-style: normal;
 	color: white;
 	background-color: #121212
@@ -91,6 +85,19 @@ footer {
 .testimonial {
 	background: url("../images/testimonial_bg.jpg");
 	background-size: cover;
+}
+
+.sign-up {
+	background-color: #f9e42e;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.sign-up a {
+	color: white;
+	background-color: #033048;
+	padding: 15px 50px;
+	display: inline-block;
 }
 
 
